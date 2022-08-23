@@ -1,0 +1,3 @@
+<View style={[loginStyles.logo]}>
+                    <Image source={require('') }style={{height:250, width:250}}/>
+                </View>
