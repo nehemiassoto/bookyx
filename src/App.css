@@ -5,12 +5,33 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  transition: all 1s ;
+  animation:infinite;
+  animation-name: mockup;
+  animation-duration: 3s;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes mockup{
+  0%{
+      transform: translateY(0%) ;
   }
+
+ 
+  50%{
+      transform: translateY(5%) ;
+  }
+ 
+
+
+  
+
+  100%{
+      transform: translateY(0%) ;
+
+  }
+  
+
 }
 
 .App-header {
