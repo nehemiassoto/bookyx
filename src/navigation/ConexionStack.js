@@ -10,11 +10,11 @@ export default function StackScreen() {
     <NavigationContainer>
         <Stack.Navigator>
         <Stack.Screen 
-          name='ScreenLogIn'
+          name="LoginScreen"
           component={LoginScreen}
           />
           <Stack.Screen 
-          name='ScreenHome'
+          name='HomeScreen'
           component={HomeScreen}
           />
           
