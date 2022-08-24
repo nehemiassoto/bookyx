@@ -11,6 +11,14 @@
   animation-duration: 3s;
   position: relative;
 }
+.App-logo-titulo {
+
+  transition: all 1s ;
+  animation:infinite;
+  animation-name: mockup;
+  animation-duration: 3s;
+  position: relative;
+}
 
 @keyframes mockup{
   0%{
