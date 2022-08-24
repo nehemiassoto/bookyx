@@ -1,6 +1,21 @@
 import logo from './logo epet20.png';
 import './App.css';
 
+
+
+//Funcion temporizador//
+setTimeout(Login, 3000 ); 
+function Login(){
+  console.log('Hola como estas!');
+}
+
+
+//Funcion temporizador//
+
+
+
+
+  //PANTALLA DE CARGA//
 function App() {
   return (
     <div className="App">
@@ -16,3 +31,4 @@ function App() {
 }
 
 export default App;
+ //PANTALLA DE CARGA//
