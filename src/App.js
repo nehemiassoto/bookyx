@@ -7,10 +7,8 @@ export default function App() {
   return (
     <div>
       <MainStack/>
-      {/* <ScreenSector/> */}
-      {/* <ScreenSecretaria/> */}
-      {/* <ScreenLogIn></ScreenLogIn> */}
-      {/* <ScreenHome></ScreenHome> */}
+      {/* <LoginScreen></LoginScreen> */}
+      {/* <HomeScreen></HomeScreen> */}
     </div>
   );
 }
